@@ -2,7 +2,8 @@
 
 Predicts the fraction of a compound bound to human plasma proteins, which sets how much drug circulates free and able to reach its target. Lou and colleagues trained an Attentive FP graph neural network on 3921 curated human binding measurements, reaching a root mean square error of 0.112 on the held-out test set, and read its attention weights to expose the substructures pushing binding up or down. Values run from 0 to 1, with above 0.8 counted as high binding and below 0.4 as low.
 
-This model was incorporated on 2023-02-03.Last packaged on 2025-10-16.
+This model was incorporated on 2023-02-03.
+Last packaged on 2025-10-16.
 
 ## Information
 ### Identifiers
@@ -28,7 +29,7 @@ This model was incorporated on 2023-02-03.Last packaged on 2025-10-16.
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
 |------|------|-----------|-------------|
-| ppb_fraction | float | low | fraction of molecule bound to plasma protein (0 to 1) |
+| ppb_fraction | float | high | fraction of molecule bound to plasma protein (0 to 1) |
 
 
 ### Source and Deployment
